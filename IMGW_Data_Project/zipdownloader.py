@@ -1,4 +1,4 @@
-def downloadzip(month: int, year: int, download_path: str, merge_path: str):
+def download(month: int, year: int, download_path: str, merge_path: str) -> object:
 
     """Basic function to download a zip file in manual mode or used in other user's functions:"""
 
